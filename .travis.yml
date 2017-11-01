@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: N9pbtAzIvVFZR263y9OWGUQ+oWW4Dt8qzGesTXcZD5XzHChnrAO6C+JJtg0uDZa6C+NLk3h/lgsQfPHQJiI0LdaN77Wvr0Ao1JDVEwMgy0R/t5USaStOFAKdYzVPbtwRyRT9t2ExoPFiXBcKBb+nFjeo3P2YBemj9eGf1NqzSCHZzAhTHMLLFDUZmsu2jZKSqNbyFaFwc4SbWPHNJRSlrThj9g/zs4b9MM9MtWFIKNxq6ORHQtJ03Loq+GZrX5XvNYv/FZ+RbfhBM2eqqFCD+NbRJdrGdUgkCbD8AakS7aM5JPk6OjqGlR/dyT2UamC9YHuzmyX7Rn2dhJ7Ggiekjt5C1p19XHoSr744Km7S4tKFcV+59ZB+dVf4Z3pFIpNCKmmxJeQR+IvA7HuhKIuaOEUAx0wF+HrOwe//4j+WtrVr/siXClppgHPnrVP9k8vtRdrrlTUAh7xl8lsuZWtoJn5cBaTRuO7aevkhlRx5Ma6GrpEVl4xPecctchSnGkV9qQ98YjS5r2ZvmAm+n49BZBwccS48Ac50C/wh3wx3kA3TT3i2Cl/e2L6taypnEdcY5W2DAwafZrK8uW4D286rAYy8s+G4wi50RiHgWv1LTmSNiSfvn4h14LbI9cXi5vUs+Ec2tMl9D5sg3Ii5rA8dmQK4Jj1vt/Kz8zZulysGdxU=
+  app: pacific-spire-24467
+  on:
+    repo: stoneboyindc/node-shopping-list-integration-tests
