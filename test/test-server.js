@@ -22,7 +22,7 @@ describe('Shopping List', function() {
   // there's a possibility of a race condition where our tests start
   // running before our server has started.
   before(function() {
-    return runServer();
+    //return runServer();
   });
 
   // although we only have one test module at the moment, we'll
